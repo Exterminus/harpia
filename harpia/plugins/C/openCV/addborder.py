@@ -76,6 +76,7 @@ class AddBorder(OpenCVPlugin):
 
     # ----------------------------------------------------------------------
     def set_properties(self, data):
+        # print type(data)
         OpenCVPlugin.set_properties(self, data)
         self.red = self.color[1:5]
         self.green = self.color[5:9]

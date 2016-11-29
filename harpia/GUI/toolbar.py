@@ -81,6 +81,6 @@ class Toolbar(Gtk.Toolbar):
         This method monitors if the button was clicked.
 
             Parameters:
-            
+
         """
         self.actions[widget]()

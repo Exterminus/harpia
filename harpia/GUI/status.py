@@ -52,7 +52,7 @@ class Status(Gtk.ScrolledWindow):
     def append_text(self, text):
         """
         This method append a text in text buffer.
-        
+
             Parameters:
                 * **self** (:class:`Status<harpia.GUI.status>`):The class.
                 * **text** (:class:`str<str>`)

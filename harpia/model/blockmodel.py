@@ -37,6 +37,7 @@ class BlockModel(object):
 
     # ----------------------------------------------------------------------
     def get_properties(self):
+        # type(self.__plugin.get_properties())
         return self.__plugin.get_properties()
 
     # ----------------------------------------------------------------------

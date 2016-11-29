@@ -226,8 +226,8 @@ class Block(GooCanvas.CanvasGroup, BlockModel):
                 * **canvas_item**
                 * **target_item**
                 * **event**
-            Returns:
-                * **Types** (:class:`boolean<boolean>`): Indicates the input as connected.
+        Returns:
+            * **Types** (:class:`boolean<boolean>`)
         """
         self.diagram.end_connection(self, args)
         return True
@@ -425,7 +425,7 @@ class Block(GooCanvas.CanvasGroup, BlockModel):
         """
         This method get position the block.
 
-             Returns:
+            Returns:
                 * **Types** (:class:`float<float>`)
         """
         isSet, x, y, scale, rotation = self.get_simple_transform()
@@ -437,7 +437,7 @@ class Block(GooCanvas.CanvasGroup, BlockModel):
         This method set properties of each block.
 
             Parameters:
-                * **data**
+                * **data** (:class:`<>`)
         """
         self.diagram.do("Set block property")
         BlockModel.set_properties(self, data)
@@ -448,7 +448,7 @@ class Block(GooCanvas.CanvasGroup, BlockModel):
         This method get properties of each block.
 
             Returns:
-                * **Types** ()
+                * **Types** (:class:`dict<dict>`)
         """
         return BlockModel.get_properties(self)
 

@@ -36,9 +36,7 @@ class PropertyBox(Gtk.VBox):
         This method set properties the block.
 
             Parameters:
-                * **block** (:class:`PropertyBox<harpia.GUI.propertybox>`)
-            Returns:
-                None
+                * **block** (:class:`<>`)
         """
         self.block = block
         # First, remove all components

@@ -158,7 +158,7 @@ class BlocksTreeView(Gtk.ScrolledWindow):
         This method get the block selected.
 
             Returns:
-                * **Types** (:class:`<>`) or None
+                * **Types** (:class:`<harpia.plugins.C.openCV.save.Save>`) or None
         """
         treeselection = self.blocks_tree_view.get_selection()
         model, iterac = treeselection.get_selected()

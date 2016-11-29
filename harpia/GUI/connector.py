@@ -83,6 +83,7 @@ class Connector(GooCanvas.CanvasGroup, ConnectionModel):
 
     # ----------------------------------------------------------------------
     def set_end(self, sink, sink_port):
+        # print type(sink)
         """
         This method set the end of connection.
 
